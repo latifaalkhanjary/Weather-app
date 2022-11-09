@@ -1,4 +1,4 @@
-li {
+#otis ul {
   list-style-type: none;
 }
 
@@ -21,12 +21,11 @@ body {
 }
 
 .weather-app {
-  border: black;
-  padding-right: 40px;
-  margin-left: 40px;
-  margin-top: 40px;
+  padding: 20px;
+  margin: 30px 0 auto;
+  border: 1px solid #80868b;
 }
 
 .open-source {
-  color: #3a8891;
+  color: black;
 }
