@@ -83,8 +83,6 @@ function showCelsiusTemperature(event) {
 
 let celsiusTemperature = null;
 
-displayForecast();
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
@@ -93,3 +91,5 @@ fahrenheit.addEventListener("click", showFahrenheitTemperature);
 
 let celsius = document.querySelector("#celsius-link");
 celsius.addEventListener("click", showCelsiusTemperature);
+
+displayForecast();
