@@ -4,6 +4,10 @@
   text-align: left;
 }
 
+img #icon {
+  size: 50px;
+}
+
 li {
   list-style: none;
   margin: 0;
