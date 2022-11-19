@@ -6,7 +6,6 @@
 
 li {
   list-style: none;
-  text-transform: capitalize;
   margin: 0;
   padding: 0;
   color: rgb(135, 135, 135);
@@ -15,6 +14,9 @@ li {
   line-height: 28px;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
